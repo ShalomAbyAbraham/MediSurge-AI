@@ -1,0 +1,6 @@
+{
+  "name": "MediSurge",
+  "description": "MediSurge - Predictive Emergency Supply System for resilient public healthcare medicine logistics and stock-out prevention.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

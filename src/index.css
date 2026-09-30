@@ -1,0 +1,21 @@
+@import "tailwindcss";
+
+@layer base {
+  body {
+    font-family: 'Plus Jakarta Sans', system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+  }
+  
+  /* Healthcare system standard typography for all inputs and buttons */
+  input, textarea, select, button {
+    font-family: 'Plus Jakarta Sans', system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+  }
+
+  /* Distinctive modern placeholder font (Outfit) for MediSurge inputs across all views */
+  input::placeholder,
+  textarea::placeholder,
+  .placeholder-font::placeholder {
+    font-family: 'Outfit', 'Plus Jakarta Sans', system-ui, -apple-system, sans-serif !important;
+    font-weight: 400 !important;
+    letter-spacing: 0.015em;
+  }
+}
